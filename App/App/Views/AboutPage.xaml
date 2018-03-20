@@ -25,7 +25,7 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="FijiHomes" FontAttributes="Bold" FontSize="22" />
+                                <Span Text="FijiHomes" FontAttributes="Bold" FontSize="23" />
                                 <Span Text=" " />
                                 <Span Text="Real Estate" ForegroundColor="{StaticResource LightTextColor}" />
                             </FormattedString.Spans>
