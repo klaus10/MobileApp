@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.Views.ItemDetailPage"
+             Title="{Binding Title}">
+    <StackLayout Spacing="20" Padding="15">
+        <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+            <Image Source="img7.jpg" HorizontalOptions="FillAndExpand" HeightRequest="150" />
+        </ContentView>
+        <Label Text="Address" FontSize="Medium" />
+        <Label Text="{Binding Item.Text}" FontSize="Small"/>
+        <Label Text="Details" FontSize="Medium" />
+        <Label Text="{Binding Item.Description}" FontSize="Small"/>
+        <Button Text="Book Inspection"></Button>
+
+    </StackLayout>
+</ContentPage>
